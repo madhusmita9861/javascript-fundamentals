@@ -1,0 +1,53 @@
+<html>
+    <head>
+       <title>Introduction to Object in javascript</title>
+       <script  type="text/javascript">
+        
+        /*Object in javascript*/
+      //  var str1 = new String();
+      // var str1 = "str";
+        var car = {
+            car_brand : "Audi", 
+            car_model : "Audi A6",
+            price : 5400000,
+
+            audiAutopilot : function()
+         {
+            document.write("<h2>This car has Auto pilot</h2>");
+         }
+
+        }
+
+        car.fuelType = "Electric";
+       // delete car.price;
+        //document.write("<h2>"+typeof(str1)+"</h2>");
+
+        document.write("<h2>"+car.fuelType+"</h2>");
+       // document.write("<h2>"+car.price+"</h2>");
+
+       /*
+       function cars(car_brand,car_model,price)
+       {
+           this.car_brand = car_brand;
+           this.car_model = car_model;
+           this.price = price;
+           this.audiAutopilot = function()
+           {
+               document.write("<h2>This car has Auto pilot</h2>");
+           }
+
+       }
+        var c1 = new cars( "Audi",  "Audi A6",  5400000);
+        var c2 = new cars( "Audi",  "Audi A6",  5400000);
+        c1.audiAutopilot();
+        document.write("<h2>"+c2.car_model)
+         */
+        </script> 
+
+    </head>
+
+       <body>
+           
+        </body>
+
+</html>
